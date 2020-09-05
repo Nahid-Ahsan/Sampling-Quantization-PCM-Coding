@@ -53,4 +53,5 @@ the message as sinusoid of amplitude Vm, signal power σx
 2 = Vm 2 /2. Thus,
 
 ![](https://latex.codecogs.com/gif.latex?%5CLARGE%20SQNR%20%3D%20%5Cfrac%7B%5Csigma%20_%7Bx%7D%5E%7B2%7D%7D%7B%5Csigma%20_%7Bnq%7D%5E%7B2%7D%7D%20%3D%20%5Cfrac%7BV_%7Bm%7D%5E%7B2%7D/2%7D%7BV_%7Bm%7D%5E%7B2%7D/3L%5E%7B2%7D%7D%20%3D%20%5Cfrac%7B3L%5E%7B2%7D%7D%7B2%7D)
+
 ![](https://latex.codecogs.com/gif.latex?%5CLARGE%20SQNR%28dB%29%20%3D%2010log_%7B10%7D%5Cfrac%7B3L%5E%7B2%7D%7D%7B2%7D%20%3D%201.7609%20&plus;%2020log_%7B10%7DL)

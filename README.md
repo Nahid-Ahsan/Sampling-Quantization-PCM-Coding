@@ -43,5 +43,14 @@ Quantization Noise and SQNR:
 Let xq(n) is the quantized version of x(n) and Δ is the quantization step, then the average power
 of quantization noise can be derived as,
 ![](https://latex.codecogs.com/gif.latex?%5CLARGE%20%5Csigma%20_%7Bnq%7D%5E%7B2%7D%3D%20E%5Bx_%7Bq%7D%28n%29%20-%20x%28n%29%5D%20%3D%20%5Cfrac%7B%5CDelta%5E%7B2%7D%7D%7B12%7D%20%3D%20%5Cfrac%7BV_%7Bm%7D%5E%7B2%7D%7D%7B3L%5E%7B2%7D%7D)
+
 Where, the quantization step, Δ = 2Vm/L, where Vm = Amplitude of the sinusoidal message
 signal, L = number of quantization level.
+
+
+The ratio of the signal power to the quantization noise power is called SQNR. So, considering
+the message as sinusoid of amplitude Vm, signal power σx
+2 = Vm 2 /2. Thus,
+
+![](https://latex.codecogs.com/gif.latex?%5CLARGE%20SQNR%20%3D%20%5Cfrac%7B%5Csigma%20_%7Bx%7D%5E%7B2%7D%7D%7B%5Csigma%20_%7Bnq%7D%5E%7B2%7D%7D%20%3D%20%5Cfrac%7BV_%7Bm%7D%5E%7B2%7D/2%7D%7BV_%7Bm%7D%5E%7B2%7D/3L%5E%7B2%7D%7D%20%3D%20%5Cfrac%7B3L%5E%7B2%7D%7D%7B2%7D)
+![](https://latex.codecogs.com/gif.latex?%5CLARGE%20SQNR%28dB%29%20%3D%2010log_%7B10%7D%5Cfrac%7B3L%5E%7B2%7D%7D%7B2%7D%20%3D%201.7609%20&plus;%2020log_%7B10%7DL)
